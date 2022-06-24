@@ -4,7 +4,7 @@ A few memes to get you started
 
 A star wars reference if you may
 
-![Screenshot from 2022-06-24 16-38-27](https://user-images.githubusercontent.com/79002760/175524589-6cd7d690-a19c-42f9-8bcc-3d9bffeff197.png)
+![memes2](https://user-images.githubusercontent.com/79002760/175524883-687a2dd9-22d3-41b1-a4c4-55188dbe57ee.png)
 
 # Getting Started with Create React App
 
