@@ -1,3 +1,11 @@
+A few memes to get you started
+
+![Screenshot from 2022-06-24 16-29-07](https://user-images.githubusercontent.com/79002760/175524544-e96a0bf3-7648-444f-b90a-aa4e0a1a7da8.png)
+
+A star wars reference if you may
+
+![Screenshot from 2022-06-24 16-38-27](https://user-images.githubusercontent.com/79002760/175524589-6cd7d690-a19c-42f9-8bcc-3d9bffeff197.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
