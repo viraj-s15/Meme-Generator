@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+:root {
+	--button-color: #ffffff;
+	--navbar-gradient: radial-gradient(
+		circle,
+		rgba(238, 174, 202, 1) 0%,
+		rgba(148, 187, 233, 1) 100%
+	);
+	--background-button-color: rgba(148, 187, 233, 0.1);
+	--hover-button-color: black;
+}
+
+.memes--container {
+	display: flex;
+	max-width: 60rem;
+	margin: 0 auto;
+	padding-top: 3.5rem;
+	flex-direction: column;
+	gap: 3.5rem;
+	padding: 3.5rem;
+	background: var(--navbar-gradient);
+	border-radius: 0 0 1.25rem 1.25rem;
+	justify-content: center;
+	align-items: center;
+}
+
+.memes--input--field {
+	display: flex;
+	gap: 7rem;
+}
+
+.input--field1,
+.input--field2 {
+	padding-left: 1.5rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	font-size: 1rem;
+	border-width: 0px;
+	border-color: #cccccc;
+	background-color: #ffffff;
+	color: #000000;
+	border-style: hidden;
+	border-radius: 0.5rem;
+	box-shadow: -5px 1px 13px rgba(234, 211, 233, 0.75);
+}
+
+.input--field1:focus,
+.input--field2:focus {
+	outline: none;
+}
+.memes--submit--button {
+	font-size: 1.15rem;
+	font-family: "Roboto", sans-serif;
+	padding: 0.75rem;
+	border-radius: 1.2rem;
+	border: none;
+	background: var(--button-color);
+}
+
+.memes--submit--button:hover {
+	cursor: pointer;
+	background: var(--background-button-color);
+	color: var(--hover-button-color);
+}
+
+.memes--img {
+	max-width: 100%;
+}
+
+.memes--wrapper {
+	position: relative;
+	max-width: 100%;
+	text-align: center;
+}
+
+.memes--top--text {
+	position: absolute;
+  margin: 0 auto;
+	top: 10px;
+	right: 3%;
+
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+		-2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+		2px 2px 5px #000;
+	font-size: 1.5rem;
+}
+.memes--bottom--text {
+	position: absolute;
+	font-size: 1.5rem;
+	max-width: 100%;
+  bottom: 0;
+	right: 3%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: white;
+	text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+		-2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+		2px 2px 5px #000;
+
+}
